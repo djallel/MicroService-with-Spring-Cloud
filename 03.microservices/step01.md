@@ -1,3 +1,10 @@
+
+## Complete Code Example
+
+
+### /limits-service/pom.xml
+
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -112,3 +119,51 @@
 
 
 </project>
+```
+---
+
+### /limits-service/src/main/java/com/in28minutes/microservices/limitsservice/LimitsServiceApplication.java
+
+```java
+package com.in28minutes.microservices.limitsservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LimitsServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LimitsServiceApplication.class, args);
+	}
+}
+```
+---
+
+### /limits-service/src/main/resources/application.properties
+
+```properties
+```
+---
+
+### /limits-service/src/test/java/com/in28minutes/microservices/limitsservice/LimitsServiceApplicationTests.java
+
+```java
+package com.in28minutes.microservices.limitsservice;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class LimitsServiceApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
+```
+---
