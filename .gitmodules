@@ -1,0 +1,2 @@
+[submodule "03.microservices/git-localconfig-repo"]
+	url = https://github.com/djallel/MicroService-with-Spring-Cloud.git
