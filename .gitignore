@@ -1,0 +1,10 @@
+
+.metadata/
+
+03.microservices/currency-conversion-service/.idea/
+
+*.iml
+
+03.microservices/currency-exchange-service/.idea/libraries/
+
+03.microservices/currency-exchange-service/.idea/
