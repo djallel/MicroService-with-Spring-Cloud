@@ -10,3 +10,9 @@
 03.microservices/currency-exchange-service/.idea/
 
 03.microservices/netflix-zuul-api-gateway-server/.idea/
+
+03.microservices/netflix-eureka-naming-server/target/classes/com/in28minutes/microservices/netflixeurekanamingserver/NetflixEurekaNamingServerApplication.class
+
+03.microservices/netflix-eureka-naming-server/target/test-classes/com/in28minutes/microservices/netflixeurekanamingserver/NetflixEurekaNamingServerApplicationTests.class
+
+*.class
